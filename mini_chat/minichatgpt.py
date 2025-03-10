@@ -1,4 +1,7 @@
 import nltk
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
